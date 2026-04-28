@@ -4,6 +4,6 @@ s=f1.read()
 newline_count = s.count('\n') 
 tab_count = s.count('\t')
 print(s)
-
+f1.close()
 print("Number of new lines:", newline_count)
 print("Number of tabs:", tab_count)

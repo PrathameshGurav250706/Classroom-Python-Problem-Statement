@@ -4,3 +4,4 @@ s=f1.read()
 for i in s:
     if not i.isalnum() and not i.isspace():
         print(i)
+f1.close()

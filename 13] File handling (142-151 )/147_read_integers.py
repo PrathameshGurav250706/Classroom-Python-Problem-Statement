@@ -8,3 +8,4 @@ for i in t:
         count+=1
     
 print(count)
+f1.close()
