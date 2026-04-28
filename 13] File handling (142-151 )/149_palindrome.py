@@ -2,6 +2,8 @@
 f1=open("C:\\Users\\Prathamesh\\OneDrive\\Desktop\\Language\\Python\\149.txt","r")
 s=f1.read()
 t=s.split() 
+print("Palindrome no. and string are :")
 for i in t:
     if i==i[::-1]:
         print(i)
+f1.close()
