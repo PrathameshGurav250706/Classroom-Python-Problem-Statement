@@ -1,4 +1,4 @@
-#using regular expression find out only special symbol from given string
+#uising regular expression find out only special symbol from gven string
 import re
 s="@prathamesh$"
 pattern=r"\W"
